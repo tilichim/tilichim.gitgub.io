@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>ENHANCED OWN VOICE PERCEPTION FOR HEARABLES USING MACHINE LEARNING</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+		<link rel="stylesheet" href="css/custom.css" id="custom">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="img/beamer_title_04.jpg" data-background-size="contain" data-background-opacity=".5">
+					<h1>ENHANCED OWN VOICE PERCEPTION FOR HEARABLES USING MACHINE LEARNING</h1>
+				</section>
+
+				<section data-background-color='aquamarine'>
+					<h2>Maxwell's Equations in differential form</h2>
+					<section>
+						<h3>Ampères law</h3>
+						<div>
+							\[
+							\begin{aligned}
+								\nabla \times \vec{\mathbf{H}} = \vec{\mathbf{J}} + \frac{\partial}{\partial t} \vec{\mathbf{D}}
+							\end{aligned}
+							\]
+						</div>
+					</section>
+					<section>
+						<h3>Farraday's law of induction</h3>
+						\[
+							\begin{aligned}
+								\nabla \times \vec{\mathbf{E}} = - \frac{\partial}{\partial t} \vec{\mathbf{B}}
+							\end{aligned}
+						\]
+					</section>
+					<section>
+						<h3>Gauß's law</h3>
+						\[\begin{aligned}
+							\nabla \vec{\mathbf{D}} = \rho
+						\end{aligned}\]
+					</section>
+					<section>
+						<h3>Law for magnetism</h3>
+						\[\begin{aligned}
+							\nabla \vec{\mathbf{B}} = 0
+						\end{aligned}\]
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>The Fresh Prince says</h1>
+						<p>
+							<span class="fragment r-fit-text">Now, this is a story all about how</span><br>
+							<span class="fragment r-fit-text">My life got flipped-turned upside down</span><br>
+<span class="fragment r-fit-text">And I liked to take a minute
+	Just sit right there</span><br>
+							<span class="fragment r-fit-text">I'll tell you how I became the prince of a town called Bel Air</span>
+						</p>
+						<aside class="notes">
+							In west Philadelphia born and raised
+On the playground was where I spent most of my days
+Chillin' out maxin' relaxin' all cool
+And all shootin some b-ball outside of the school
+When a couple of guys who were up to no good
+Started making trouble in my neighborhood
+I got in one little fight and my mom got scared
+She said 'You're movin' with your auntie and uncle in Bel Air'
+						</aside>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				history: true,
+				math: {
+					// mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+					config: 'TeX-AMS_HTML-full',
+					TeX: {
+						Macros: {
+							R: '\\mathbb{R}',
+							set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+						}
+					}
+				},
+				controls: true,
+				controlsLayout: 'bottom-right', // 'bottom-right' or 'edges'
+				controlsBackArrows: 'faded', //"faded", "hidden" or "visible"
+				progress: true, // progress bar
+				slideNumber: true,
+				hash: true,
+				respondToHashChanges: true,
+				navigationMode: 'grid',
+				showNotes: false,
+
+
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+			});
+		</script>
+	</body>
+</html>
