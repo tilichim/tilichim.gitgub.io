@@ -1,0 +1,27 @@
+/* CUSTOM RWTH STYLES */
+
+/* RWTH BLAU 
+
+\definecolor{rwthblau}{RGB}{0,84,159}
+\definecolor{rwthhellblau}{RGB}{142,186,229}
+\definecolor{rwthschwarz}{RGB}{0,0,0}
+% \definecolor{rwthgrau}{RGB}{156,158,159} %% 50% schwarz laut Manual, m.E. leicht blau
+\definecolor{rwthgrau}{RGB}{153,153,153} %% so wie bisher: #999999 (≈ 40 % black)
+%\colorlet{rwthgrau}{rwthschwarz!25!white}
+%\colorlet{rwthgrau}{rwthschwarz!50!white}
+%
+%% Weitere Farben
+\definecolor{rwthgruen}{RGB}{87,171,39}
+\definecolor{rwthorange}{RGB}{246,168,0}
+\definecolor{rwthrot}{RGB}{204,7,30}
+\definecolor{rwthlila}{RGB}{122,111,172}
+%
+\definecolor{rwthpetrol}{RGB}{0,97,101}
+\definecolor{rwthtuerkis}{RGB}{0,152,161}
+\definecolor{rwthmaigruen}{RGB}{189,205,0}
+\definecolor{rwthgelb}{RGB}{255,237,0}
+\definecolor{rwthmagenta}{RGB}{227,0,102}
+\definecolor{rwthbordeaux}{RGB}{161,16,53}
+\definecolor{rwthviolett}{RGB}{97,33,88}
+
+*/
