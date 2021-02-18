@@ -112,7 +112,17 @@ She said 'You're movin' with your auntie and uncle in Bel Air'
 				navigationMode: 'grid',
 				showNotes: false,
 
+				 multiplex: {
+					// Example values. To generate your own, see the socket.io server instructions.
+				    secret: null, // Obtained from the socket.io server. Gives this (the master) control of the presentation
+				    id: 'f514427e93aec0fd', // Obtained from socket.io server
+				    url: 'https://reveal-multiplex.glitch.me/' // Location of socket.io server
+				},
 
+				dependencies: [
+					{ src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js', async: true },
+					{ src: 'https://reveal-multiplex.glitch.me/master.js', async: true }
+				]
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
